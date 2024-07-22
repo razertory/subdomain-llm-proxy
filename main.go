@@ -12,6 +12,7 @@ import (
 var apiEndpoints = map[string]string{
 	"openai": "https://api.openai.com",
 	"claude": "https://api.anthropic.com",
+	"gemini": "https://generativelanguage.googleapis.com",
 }
 
 func main() {
